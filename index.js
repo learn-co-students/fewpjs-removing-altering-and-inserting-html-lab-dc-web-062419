@@ -1,19 +1,12 @@
-import { isMainThread } from "worker_threads";
+// import { isMainThread } from "worker_threads";
 
-// Write your code her
-
-// document.querySelector('main#main').remove();
-// document.querySelector("main#main").remove();
-
-// const newHeader = document.createElement("h1");
-// newHeader.innerHTML = `${your-name} is the champion`;
-// newHeader.id = "victory";
-// newHeader.className = "victory";
 
 const testVar = "hi"
 
 /* Enter the code to remove the node element here */
-document.querySelector("main#main").remove();
+let main=document.querySelector("main#main")
+main.remove()
+// suerremover()
 
 /* Create your new element here and assign it to newHeader */
 const newHeader = document.createElement("h1");
