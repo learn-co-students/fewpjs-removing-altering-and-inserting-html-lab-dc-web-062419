@@ -1,6 +1,3 @@
-// Write your code here!
-const element = document.createElement('ul');
-
 document.querySelector('main#main').remove();
 
 const newHeader = document.createElement("h1");
